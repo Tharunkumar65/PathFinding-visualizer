@@ -34,9 +34,9 @@ To run the application locally, follow these steps:
 
 1. Make sure you have Node.js installed on your machine.
 2. Clone the repository and navigate to the project directory.
-3.Install the required dependencies by running: `npm install`
-4.Start the development server by running: `npm start`
-5.Open your web browser and visit `http://localhost:3000` to access the application.
+3. Install the required dependencies by running: `npm install`.
+4. Start the development server by running: `npm start`.
+5. Open your web browser and visit `http://localhost:3000` to access the application.
 
 ## Credits
 This Path Visualizer app was developed by Duggineni Tharun Kumar as a demonstration of graph traversal algorithms using React.
