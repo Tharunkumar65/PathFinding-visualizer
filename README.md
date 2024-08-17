@@ -1,6 +1,6 @@
 # Path Visualizer React App
 
-[Currently live on here](#) 
+[Currently live on here](https://path-finding-visualizer-silk.vercel.app/) 
 
 ## Overview
 
@@ -20,13 +20,13 @@ This React application is designed to demonstrate three popular graph traversal 
 ## Algorithms
 
 1. **Breadth-First Search (BFS)**
-   - Traverses or searches a graph in breadthward motion, exploring all neighbors of a node before moving to the next level. Guarantees finding the shortest path between the starting node and any other node in the grid.
+   - BFS is an algorithm used to traverse or search a graph in a breadthward motion. Starting from a selected node, BFS explores all its neighbors before moving to their respective neighbors. This algorithm guarantees finding the shortest path between the starting node and any other node in an unweighted graph. In the path visualizer app, BFS is useful for finding the shortest path between two nodes on the grid.
 
 2. **Depth-First Search (DFS)**
-   - Explores as far as possible along each branch before backtracking. Useful for exploring all possible paths in the grid.
+   - DFS is another graph traversal algorithm that explores as far as possible along each branch before backtracking. It starts from a selected node and traverses as deep as possible, exploring all the neighbors of the current node before backtracking. In the path visualizer app, DFS is helpful for exploring all possible paths on the grid
 
 3. **Dijkstra's Algorithm**
-   - Finds the shortest path between two nodes in a graph with non-negative edge weights. Utilizes a priority queue to explore nodes in a greedy manner, considering edge weights to find the shortest path.
+   - Dijkstra's algorithm is used to find the shortest path between two nodes in a graph with non-negative edge weights. It starts from a selected node and iteratively finds the shortest path to all other nodes. The algorithm maintains a priority queue of nodes based on their distance from the source node and explores the nodes in a greedy manner. In the path visualizer app, Dijkstra's algorithm is utilized to find the shortest path between two nodes on the grid, considering the weights assigned to each edge.
 
 ## Usage
 
@@ -34,7 +34,11 @@ To run the application locally, follow these steps:
 
 1. Make sure you have Node.js installed on your machine.
 2. Clone the repository and navigate to the project directory.
-3. Install the required dependencies by running:
-   ```bash
-   npm install
-  ```
+3.Install the required dependencies by running: `npm install`
+4.Start the development server by running: `npm start`
+5.Open your web browser and visit `http://localhost:3000` to access the application.
+
+## Credits
+This Path Visualizer app was developed by Duggineni Tharun Kumar as a demonstration of graph traversal algorithms using React.
+
+
